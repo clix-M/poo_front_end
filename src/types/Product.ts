@@ -1,6 +1,6 @@
 export interface Product {
     id: number
     name: string
-    price: boolean
-    createdDate: string
+    price: number
+    created_date: Date
 }
